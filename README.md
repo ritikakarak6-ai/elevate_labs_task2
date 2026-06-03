@@ -35,3 +35,4 @@ Inside the email body, there is a prominent blue button labeled **"Report The Us
 ### 👁️ Step 4: Invisible Tracking (Spy Pixel)
 The attacker embedded a tiny, invisible $1 \times 1$ pixel image at the bottom of the email:
 ```html
+<img alt="" src="[http://thebandalisty.com/track/](http://thebandalisty.com/track/)..." width="1px" height="1px" style="visibility:hidden">
